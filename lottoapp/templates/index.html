@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content%}
+
+    <div class="well well-lg text-center fon" >
+        <img src="{%static 'img/lotto.jpg' %}"/><br><br>
+
+        <a href="{%url 'result'%}"><button type="button" class="btn btn-default">추첨하기</button></a>
+    </div>
+
+    
+{% endblock %}    

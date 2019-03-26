@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content%}
+
+
+ <div class= "text-center fon">
+
+
+
+    <div class="container-fluid bg-1 text-center">
+            <h3 class="margin">💸 당첨 결과를 확인하십쇼! 💸</h3>
+            {% for v, c in colorball.items %}
+            <span class="ball {{c}}"> {{v}}</span>
+        {% endfor %}
+    
+        
+          </div>
+</div>   
+
+{% endblock %}    
+
+forloop.counter0

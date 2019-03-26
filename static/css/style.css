@@ -1,0 +1,42 @@
+.ban {
+    margin-bottom: 100px;
+    font-family: 'Black Han Sans', sans-serif;
+    float:center;
+}
+
+
+
+.cb{
+    color : black;
+}
+
+.ball {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+    font-family: 'Black Han Sans', sans-serif;
+    float:left;
+}
+
+.one{
+    background-color:red;
+}
+
+.two{
+    background-color:orange;
+}
+
+.three{
+    background-color:yellow;
+}
+
+.four{
+    background-color:blue;
+}
+
+.five{
+    background-color:green;
+}
